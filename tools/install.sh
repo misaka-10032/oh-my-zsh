@@ -43,7 +43,7 @@ fi
 umask g-w,o-w
 
 printf "${BLUE}Cloning Oh My Zsh...${NORMAL}\n"
-hash git >/dev/null 2>&1 && env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH || {
+hash git >/dev/null 2>&1 && env git clone --depth=1 https://github.com/misaka-10032/oh-my-zsh.git $ZSH || {
   printf "git not installed\n"
   exit
 }
